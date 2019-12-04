@@ -57,65 +57,7 @@ def naming_system
    
  end 
  
-# "Kingdom" => 
-#     {"Phylum" => 
-#     { "Class" => 
-#     {"Order" => 
-#     {"Family" => 
-#     {"Genus" => 
-#     {"Species" => nil}
-#     }}}}},
-#     }
  
- 
- 
- 
- 
- 
-# a_hash = {
-#   "Kingdom" => "Phylum", 
-#   "Class" => {
-#     "Order" => some_value, 
-#     "Family" => {
-#       "Genus" => some_value, 
-#       "Species" => nil
-#       }
-#     }
-#   }
-# }
-# a_hash[:another_key][:another_key][:another_key] 
-# => the_end
-  
-     #   "Kingdom" => 
-  #   {"Phylum" => 
-  #   {"Class" => 
-  #   { "Order" => 
-  #   {"Family" => 
-  #   {"Genus" => 
-  #   {"Species" => nil}
-  #   }
-  #   }
-  #   }
-  #   }
-  #   }
-  # } 
-  # "Kingdom" => {
-  #   "Phylum" => {}, "Class" => {
-  #     "Order" => {}},
-  # "Family" => {"Genus" => {"Species" => nil}}
-  # }}  
-  
-  
-  # "Kingdom" => "Phylum", 
-  #   "Class" => {
-  #   "Order" => {}, 
-  #   "Family" => {
-  #     "Genus" => {}, 
-  #     "Species" => nil
-       
-  #   }
-  # }
-  # }
  # Remember:
   #  Kingdom
   #  Phylum
